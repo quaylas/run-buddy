@@ -1,0 +1,42 @@
+/*Fix the margin and padding for ALL THE THINGS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Apply styles to <body>*/
+body{
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/*Apply styles to <header>*/
+header{
+    padding: 20px 35px;
+    background-color:#39a6b2;
+}
+/*Apply styles to <h1> within <header>*/
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+/*Apply styles to <a> within <header>*/
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+/*Apply styles to <nav> within <header>*/
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+/*Apply styles to <li> in <ul> within nav, header*/
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
