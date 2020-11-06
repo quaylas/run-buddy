@@ -246,6 +246,18 @@ section {
     font-size:17px;
 }
 /* Trainers Style End */
+/* Pricing Grid Style Start */
+.service-grid-container {
+    display: grid;
+}
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+/* Pricing Grid Style End */
 /* Reach Out Style Start */
 .contact {
     background: #024e76;
